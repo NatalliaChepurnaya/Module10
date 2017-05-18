@@ -26,7 +26,7 @@ public class XMLFileReader {
 			}
 			fr.close();			
 			return str;
-		} catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e) {// к этому занятию мы исключения еще не брали, но на всякий случай - так делать не надо
 			e.printStackTrace();
 			return null;
 		} catch (IOException e) {
